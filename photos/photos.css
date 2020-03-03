@@ -1,3 +1,4 @@
 img {display:inline-block;}
 div {margin:auto;}
 p {word-break: break-all;}
+body {width: fit-content;}
