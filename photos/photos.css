@@ -10,26 +10,3 @@ p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:ju
 p.source {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1rem; font-weight:normal; text-align:justify; line-height:200%; word-break:break-all;}
 h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}}
 
-@media screen and (min-width:321px) and (max-width:479px) {
-{a:link, a:visited {color:rgb(0,0,255); text-decoration:underline;}
-br {line-height:2rem;}
-table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 1rem; overflow:auto;}
-hr {margin:0rem 0rem 2rem 0rem; padding:0; border:0; border-style:solid; border-width:0px; color:#e6e6e6;}
-img {object-fit:contain; padding:0; margin:auto; text-align:center; display:block; max-width:33.3vmin;}
-html {display:block; border:0; padding:0; margin:auto; max-width:479px; font-size:1rem; line-height:200%; font-weight: normal; Font-Family:serif; background-color:rgb(128,128,128)}   
-nav {display:block; border:0; padding: 1rem 0rem 1rem 0rem; margin:0; font-size:1.5rem; font-weight:normal; text-align: center;}
-p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all;}
-p.source {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1rem; font-weight:normal; text-align:justify; line-height:200%; word-break:break-all;}
-h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}}
-  
-@media screen and (min-width:480px){
-{a:link, a:visited {color:rgb(0,0,0); text-decoration:underline;}
-br {line-height:2rem;}
-table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 1rem; overflow:auto;}
-hr {margin:0rem 0rem 2rem 0rem; padding:0; border:0; border-style:solid; border-width:0px; color:#e6e6e6;}
-img {object-fit:contain; padding:0; margin:auto; text-align:center; display:block; max-width:33.3vmin;}
-html {display:block; border:0; padding:0; margin:auto; max-width:480px; font-size:1.2rem; line-height:200%; font-weight: normal; Font-Family:serif;}   
-nav {display:block; border:0; padding: 1rem 0rem 1rem 0rem; margin:0; font-size:1.5rem; font-weight:normal; text-align: center;}
-p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all;}
-p.source {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1rem; font-weight:normal; text-align:justify; line-height:200%; word-break:break-all;}
-h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}}
