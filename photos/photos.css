@@ -1,5 +1,5 @@
 img {display:inline-block;}
-div {margin:auto;}
+div {margin:auto; text-align:center;}
 p {word-break: break-all; font-size:49px}
 html {width:980px;}
 body {width:980px;}
