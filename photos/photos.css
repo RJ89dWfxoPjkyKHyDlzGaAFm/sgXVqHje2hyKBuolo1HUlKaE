@@ -1,4 +1,4 @@
-@media screen and (min-width:320px) 
+@media screen and (max-width:320px) and (maximum-width:320px) 
 {a:link, a:visited {color:rgb(0,0,255); text-decoration:underline;}
 br {line-height:2rem;}
 table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 1rem; overflow:auto;}
@@ -10,7 +10,7 @@ p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:ju
 p.source {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1rem; font-weight:normal; text-align:justify; line-height:200%; word-break:break-all;}
 h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}}
 
-@media screen and (min-width:321px) 
+@media screen and (min-width:321px) and (maximum-width:479px)
 {a:link, a:visited {color:rgb(0,0,255); text-decoration:underline;}
 br {line-height:2rem;}
 table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 1rem; overflow:auto;}
