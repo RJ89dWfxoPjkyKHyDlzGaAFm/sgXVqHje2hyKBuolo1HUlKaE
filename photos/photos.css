@@ -1,5 +1,5 @@
 img {display:inline-block;}
 div {margin:auto;}
-p {word-break: break-all;}
-html {width:480px;}
-body {width:480px;}
+p {word-break: break-all; font-size:49px}
+html {width:980px;}
+body {width:980px;}
