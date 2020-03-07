@@ -9,4 +9,5 @@ nav {display:block; border:0; padding: 1rem 0rem 1rem 0rem; margin:0; font-size:
 p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all;}
 p.source {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1rem; font-weight:normal; text-align:justify; line-height:200%; word-break:break-all;}
 h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}
+video {width:100%;}
 
