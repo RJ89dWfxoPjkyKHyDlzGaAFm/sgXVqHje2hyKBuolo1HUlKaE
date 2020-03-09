@@ -6,7 +6,7 @@ hr {margin:0rem 0rem 2rem 0rem; padding:0; border:0; border-style:solid; border-
 img {object-fit:contain; padding:0; margin:auto; text-align:center; display:block; max-width:100%;}
 body {display:block; border:0; padding:0; margin:auto; max-width:5in; font-size:1rem; line-height:200%; font-weight: normal; Font-Family:serif;}   
 nav {display:block; border:0; padding: 1rem 0rem 1rem 0rem; margin:0; font-size:1.5rem; font-weight:normal; text-align: center;}
-p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all;}
+p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:left; word-break:break-all;}
 p.source {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1rem; font-weight:normal; text-align:justify; line-height:200%; word-break:break-all;}
 h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}}
   
@@ -18,6 +18,6 @@ hr {margin:0rem 0rem 2rem 0rem; padding:0; border:0; border-style:solid; border-
 img {object-fit:contain; padding:0; margin:auto; text-align:center; display:block; max-width:100%;}
 body {display:block; border:0; padding:0; margin:auto; max-width:5in; font-size:1.2rem; line-height:200%; font-weight: normal; Font-Family:serif;}   
 nav {display:block; border:0; padding: 1rem 0rem 1rem 0rem; margin:0; font-size:1.5rem; font-weight:normal; text-align: center;}
-p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all;}
+p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:left; word-break:break-all;}
 p.source {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1rem; font-weight:normal; text-align:justify; line-height:200%; word-break:break-all;}
 h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}}
