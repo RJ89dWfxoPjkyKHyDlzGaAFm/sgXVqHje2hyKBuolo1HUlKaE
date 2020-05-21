@@ -4,11 +4,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <link rel="stylesheet" type="text/css" href="default.css">
 <title>Form</title>
- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
 </head>
 <body> 
 <br> 
 <form style="margin:auto; width=98%; max-width:98%; overflow:hidden; text-align:center;" action="https://submit-form.com/_qampRdHkefWZL1bloFOe" target="_self">
+<script>var RC2KEY = 'sitekey',
+    doSubmit = false;
+
+function reCaptchaVerify(response) {
+    if (response === document.querySelector('.g-recaptcha-response').value) {
+        doSubmit = true;
+    }
+}
+
+function reCaptchaExpired () {
+    /* do something when it expires */
+}
+
+function reCaptchaCallback () {
+    grecaptcha.render('id', {
+        'sitekey': RC2KEY,
+        'callback': reCaptchaVerify,
+        'expired-callback': reCaptchaExpired
+    });
+}
+
+document.forms['form-name'].addEventListener('submit',function(e){
+    if (doSubmit) {
+        /* submit form or do something else */
+    }
+})</script>
 <!-- All elements must have a name attribute -->
 <textarea style="margin:auto; width=98%; max-width:98%; overflow:hidden; resize: vertical; word-break: break-all; text-align:justify; font-family:serif; font-size:1.2rem;" name ="textarea" placeholder="Compose message" rows="4" cols="50" maxlength="10000" required></textarea><br>
 <!-- A button of type submit -->
