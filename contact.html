@@ -10,37 +10,12 @@
 <body> 
 <br> 
 <form style="margin:auto; width=98%; max-width:98%; overflow:hidden; text-align:center;" action="https://submit-form.com/_qampRdHkefWZL1bloFOe" target="_self">
-<script>var RC2KEY = '6Lc4gN0UAAAAAAjHXirStJ-h0Dj7_U08MIM02Maw',
-    doSubmit = false;
-
-function reCaptchaVerify(response) {
-    if (response === document.querySelector('.g-recaptcha-response').value) {
-        doSubmit = true;
-    }
-}
-
-function reCaptchaExpired () {
-    /* do something when it expires */
-}
-
-function reCaptchaCallback () {
-    grecaptcha.render('id', {
-        '6Lc4gN0UAAAAAAjHXirStJ-h0Dj7_U08MIM02Maw': RC2KEY,
-        'callback': reCaptchaVerify,
-        'expired-callback': reCaptchaExpired
-    });
-}
-
-document.forms['form-name'].addEventListener('submit',function(e){
-    if (doSubmit) {
-        /* submit form or do something else */
-    }
-})</script>
+<script></script>
 <!-- All elements must have a name attribute -->
 <textarea style="margin:auto; width=98%; max-width:98%; overflow:hidden; resize: vertical; word-break: break-all; text-align:justify; font-family:serif; font-size:1.2rem;" name ="textarea" placeholder="Compose message" rows="4" cols="50" maxlength="10000" required></textarea><br>
 <!-- A button of type submit -->
 <div style="margin:auto; text-align:center; margin:auto; padding:0; border:0;">
-<div style="display:inline-block;" class="g-recaptcha" data-sitekey="6Lc4gN0UAAAAAAjHXirStJ-h0Dj7_U08MIM02Maw"></div></div>
+<div style="display:inline-block;" class="g-recaptcha" data-sitekey="6Lc4gN0UAAAAAAjHXirStJ-h0Dj7_U08MIM02Maw" data-callback="verifyCaptcha"></div></div>
 <button style="font-size:1.2rem;" type="submit">Submit</button>
 </form>
         
