@@ -1,23 +1,23 @@
 @media screen and (max-width:5in)
 {a:link, a:visited {color:rgb(255,255,255); text-decoration:underline;}
 a.two:link, a.two:visited {color:rgb(0,0,0); text-decoration:underline;}
-br {line-height:1rem;}
-table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: .8rem; overflow:auto;}
-body {background-color:rgb(127,127,127);color:rgb(0,0,0);display:block; border:0; padding:0; margin:auto; max-width:5in; font-size:1rem; line-height:200%; font-weight: normal; Font-Family:sans-serif;}   
-p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all;}
-p.two {display:block; border:0; padding:0rem 0rem 2rem 0rem; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all; border-bottom: 1px solid black;}
-h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}
+br {line-height:1px;}
+table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 12px; overflow:auto;}
+body {background-color:rgb(127,127,127);color:rgb(0,0,0);display:block; border:0; padding:0; margin:auto; max-width:5in; font-size:12px; line-height:200%; font-weight: normal; Font-Family:monospace;}
+p {display:block; border:0; padding:0; margin:0px 0px 12px 0px; text-align:justify; word-break:break-all;}
+p.two {display:block; border:0; padding:0px 0px 12px 0px; margin:0px 0px 12px 0px; text-align:justify; word-break:break-all; border-bottom: 1px solid black;}
+h1 {display:block; border:0; padding:0; margin:0px 0px 12px 0px; font-size:18px; text-align:center;}
 video {width:100%; height:auto;}
 img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;}}
-  
+
 @media screen and (min-width:5in) 
 {a:link, a:visited {color:rgb(255,255,255); text-decoration:underline;}
 a.two:link, a.two:visited {color:rgb(0,0,0); text-decoration:underline;}
-br {line-height:1rem;}
-table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 1rem; overflow:auto;}
-body {background-color:rgb(127,127,127);color:rgb(0,0,0);display:block; border:0; padding:0; margin:auto; max-width:6in; font-size:1.1rem; line-height:200%; font-weight: normal; Font-Family:sans-serif;}   
-p {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all;}
-p.two {display:block; border:0; padding:0rem 0rem 2rem 0rem; margin:0rem 0rem 2rem 0rem; text-align:justify; word-break:break-all; border-bottom: 1px solid black;}
-h1 {display:block; border:0; padding:0; margin:0rem 0rem 2rem 0rem; font-size:1.5rem; text-align:center;}
+br {line-height:1px;}
+table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 16px; overflow:auto;}
+body {background-color:rgb(127,127,127);color:rgb(0,0,0);display:block; border:0; padding:0; margin:auto; max-width:7in; font-size:16px; line-height:200%; font-weight: normal; Font-Family:monospace;}
+p {display:block; border:0; padding:0; margin:0px 0px 16px 0px; text-align:justify; word-break:break-all;}
+p.two {display:block; border:0; padding:0px 0px 16px 0px; margin:0px 0px 16px 0px; text-align:justify; word-break:break-all; border-bottom: 1px solid black;}
+h1 {display:block; border:0; padding:0; margin:0px 0px 16px 0px; font-size:24px; text-align:center;}
 video {width:100%; height:auto;}
 img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;}}
