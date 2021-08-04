@@ -57,10 +57,22 @@
 <video controls preload="none">
 <source src="https://onedrive.live.com/download?cid=71C45DE3883A02A0&resid=71C45DE3883A02A0%21474&authkey=%21AD4tq4TVciL12JU" type="video/mp4">
 </video></p>
+
 <p class="two">This is one of Al-Qaeda's training camps for children. Video source: DailyMail <span aria-hidden="true"><a target="_blank" href="https://www.dailymail.co.uk/news/article-2402117/The-terror-tot-Grinning-Al-Qaeda-fighter-trains-TODDLER-handgun-sickening-video-war-torn-Afghanistan.html">1</a>,</span> @TheIntlHerald <span aria-hidden="true"><a target="_blank" href="https://twitter.com/TheIntlHerald/status/752811062513197056">2</a>.</span><br>
-<video controls preload="none">
-<source src="https://video.twimg.com/ext_tw_video/752810270389473282/pu/vid/318x180/nRhDr7T_RJdoDrrd.mp4" type="video/mp4">
-</video></p>
+
+<video id="two" controls preload="none"></video>
+<script>
+  var video = document.getElementById('two');
+  var videoSrc = 'https://video.twimg.com/ext_tw_video/752810270389473282/pu/pl/318x180/GPZOTB7uAeeZ408j.m3u8';
+  if (Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+  }
+  else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = videoSrc;
+  }
+</script></p>
 
 <p class="two">This woman named Rokhshana was stoned to death. The crime she committed is called (zina) adultery. A wealthy man can say "You are my wife now, and our wedding is in two weeks. I am sending $100,000 to your father." If the bride replies "No," they kidnap her. If the bride runs away, it is assumed she ran away to have sex with a different man, which means she commits adultery. In sharia law, adultery is legally punishable with the death penalty. Video Source: DailyMail <span aria-hidden="true"><a target="_blank" href="https://www.dailymail.co.uk/news/article-3301424/Graphic-video-shows-Afghan-woman-stoned-death-eloping.html">1</a>.</span> <video controls preload="none">
 <source src="https://videos.dailymail.co.uk/video/mol/2015/11/03/5658269725960812416/1024x576_5658269725960812416.mp4" type="video/mp4">
@@ -74,7 +86,7 @@
 </video><br>Bride Kidnapping is when a man shows up at a woman's house, climbs in her window, kidnaps her, holds her hostage, and rapes her. Because the woman got raped, that means she technically had sex before marriage. Having sex before marriage means she is a slut bringing dishonor to her family's reputation. Her entire family and village excommunicates her. Employers refuse to hire sluts, so she becomes homeless, and could be stoned to death called Honor Killing. To preserve her family's reputation, she is expected to marry her rapist. If she marries her rapist that means she is no longer a slut. According to almost every religion, women being sluts is one of the worst crimes. Because a long time ago, a slut named Eve sexually seduced a perfect human named Adam, and because of Eve everyone on Earth is suffering. Every time a woman is a slut, she is practicing satanism. Bride Kidnapping was so common and normal that it is now a tradition called Ala Kachuu in Kyrgyzstan where consenual Bride Kidnappings are staged in front of a whole village. Women see it as romantic, men see it as a right of passage.</p>
 
 <p class="two"><span aria-hidden="true"><a target="_blank" href="https://www.memri.org/tv/warning-extremely-disturbing-images-woman-stoned-death-isis-syria">1</a>.</span>
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
 <video id="video" controls preload="none"></video>
 <script>
   var video = document.getElementById('video');
@@ -101,6 +113,13 @@
 <video controls preload="none">
 <source src="https://videos.dailymail.co.uk/video/1418450360/2014/12/1418450360_3952491620001_ISIS.mp4" type="video/mp4">
 </video><br>This is ISIS crucifying a traitor. The audience's index finger gesture is called Tawhid which symbolizes "Allah is number one." Allah is their monotheistic God. Islamic terrorists believe in a literal interpretation of their bibles. Quran 5:3 states that the proper punishment for traitors is crucifixion.</p>
+
+<p class="two">
+<video controls preload="none">
+<source src="https://videos.dailymail.co.uk/video/1418450360/2014/12/1418450360_3952491620001_ISIS.mp4" type="video/mp4">
+</video><br>He is singing about Jannah which is paradise during the afterlife. The "women of Jannah" are called Hooris. Good muslim men will go to Jannah where there are 72 beautiful female virgin Hooris waiting for him.</p>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 
 </body>
