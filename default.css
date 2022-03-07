@@ -7,6 +7,7 @@ table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: 
 body {background-color:rgb(127,127,127);color:rgb(0,0,0);display:block; border:0; padding:0; margin:auto; max-width:5in; font-size:12px; line-height:200%; font-weight: normal; Font-Family:monospace;}
 p {display:block; border:0; padding:0; margin:0px 0px 12px 0px; text-align:center; word-break:normal;}
 p.two {display:block; border:0; padding:0px 0px 12px 0px; margin:0px 0px 12px 0px; text-align:center; word-break:normal; border-bottom: 1px solid black;}
+p.three {background-color:rgb(255,255,255); display:block; border:0; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; text-align:center; word-break:normal;}
 h1 {display:block; border:0; padding:0; margin:0px 0px 12px 0px; font-size:18px; text-align:center;}
 video {width:100%; height:auto;}
 img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;background-color:rgb(255,255,255);}}
@@ -20,6 +21,7 @@ table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: 
 body {background-color:rgb(127,127,127);color:rgb(0,0,0);display:block; border:0; padding:0; margin:auto; max-width:7in; font-size:16px; line-height:200%; font-weight: normal; Font-Family:monospace;}
 p {display:block; border:0; padding:0; margin:0px 0px 16px 0px; text-align:center; word-break:normal;}
 p.two {display:block; border:0; padding:0px 0px 16px 0px; margin:0px 0px 16px 0px; text-align:center; word-break:normal; border-bottom: 1px solid black;}
+p.three {background-color:rgb(255,255,255); display:block; border:0; padding:0px 0px 0px 0px; margin:0px 0px 12px 0px; text-align:center; word-break:normal;}
 h1 {display:block; border:0; padding:0; margin:0px 0px 16px 0px; font-size:24px; text-align:center;}
 video {width:100%; height:auto;}
 img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;background-color:rgb(255,255,255);}}
