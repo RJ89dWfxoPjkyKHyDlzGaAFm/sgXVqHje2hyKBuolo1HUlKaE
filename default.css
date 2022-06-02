@@ -10,7 +10,7 @@ p {display:block; border:0; padding:6px 0px 0px 0px; margin:0px auto 6px auto; t
 p.three {background-color:rgb(255,255,255); display:block; border:0; padding:0px 0px 0px 0px; margin:0px 0px 12px 0px; text-align:center; word-break:normal;}
 h1 {display:block; border:0; padding:0; margin:0px 0px 0px 0px; font-size:18px; text-align:center;}
 video {width:100%; height:auto;}
-img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;background-color:rgb(255,255,255);}img.two{width:50%;max-width:50%;margin:0px auto 0px auto;padding:0; border:0;text-align:center;display:block;background-color:rgb(127,127,127);}
+img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;background-color:rgb(255,255,255);}img.two{width:25%;max-width:25%;margin:0px auto 0px auto;padding:0; border:0;text-align:center;display:inline;background-color:rgb(127,127,127);}
 audio{display:block; border:0; padding:0; margin:auto;}}
 
 @media screen and (min-width:5in) 
@@ -25,5 +25,5 @@ p {display:block; border:0; padding:8px 0px 0px 0px; margin:0px 0px 8px 0px; tex
 p.three {background-color:rgb(255,255,255); display:block; border:0; padding:0px 0px 0px 0px; margin:0px 0px 12px 0px; text-align:center; word-break:normal;}
 h1 {display:block; border:0; padding:0; margin:0px 0px 0px 0px; font-size:24px; text-align:center;}
 video {width:100%; height:auto;}
-img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;background-color:rgb(255,255,255);}img.two{width:50%;max-width:50%;margin:0px auto 0px auto;padding:0; border:0;text-align:center;display:inline;background-color:rgb(127,127,127);}
+img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;background-color:rgb(255,255,255);}img.two{width:25%;max-width:25%;margin:0px auto 0px auto;padding:0; border:0;text-align:center;display:inline;background-color:rgb(127,127,127);}
 audio{display:block; border:0; padding:0; margin:auto;}}
