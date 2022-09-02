@@ -15,7 +15,7 @@ audio{display:block; border:0; padding:0; margin:auto;}}
 
 @media screen and (min-width:5in) 
 {span {font-size:16px;}
-a:link, a:visited {color:rgb(255,255,255); text-decoration:none;}
+a:link, a:visited {color:rgb(255,255,255); text-decoration:none;aria-hidden:true;}
 a.two:link, a.two:visited {color:rgb(0,0,0); text-decoration:underline;}
 br {line-height:16px;}
 table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 16px; overflow:auto;}
