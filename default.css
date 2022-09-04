@@ -1,6 +1,6 @@
-@media screen and (max-width:5in)
+@media screen and (max-width:480px)
 {span {font-size:12px;}
-a:link, a:visited {color:rgb(255,255,255); text-decoration:none;}
+a:link, a:visited {color:rgb(255,255,255); text-decoration:none;aria-hidden:true;text-align:center;display:block; border:0; padding:8px 0px 0px 0px; margin:0px 0px 8px 0px;}
 a.two:link, a.two:visited {color:rgb(0,0,0); text-decoration:underline;}
 br {line-height:12px;}
 table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 12px; overflow:auto;}
@@ -13,9 +13,9 @@ video {width:100%; height:auto;}
 img{width:100%;max-width:100%;margin:auto;padding:0; border:0;text-align:center;display:block;background-color:rgb(255,255,255);}img.two{width:25%;max-width:25%;margin:0px auto 0px auto;padding:0; border:0;text-align:center;display:inline;background-color:rgb(127,127,127);}
 audio{display:block; border:0; padding:0; margin:auto;}}
 
-@media screen and (min-width:5in) 
+@media screen and (min-width:480px) 
 {span {font-size:16px;}
-a:link, a:visited {color:rgb(255,255,255); text-decoration:none;aria-hidden:true;}
+a:link, a:visited {color:rgb(255,255,255); text-decoration:none;aria-hidden:true;text-align:center;display:block; border:0; padding:8px 0px 0px 0px; margin:0px 0px 8px 0px;}
 a.two:link, a.two:visited {color:rgb(0,0,0); text-decoration:underline;}
 br {line-height:16px;}
 table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 16px; overflow:auto;}
