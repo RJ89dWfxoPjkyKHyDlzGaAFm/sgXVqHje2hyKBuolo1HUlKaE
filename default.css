@@ -1,6 +1,6 @@
 @media screen and (max-width:480px)
 {span {font-size:12px;}
-a:link, a:visited {color:rgb(255,255,255); text-decoration:none;aria-hidden:true;text-align:center;display:block; border:0; padding:8px 0px 0px 0px; margin:0px 0px 8px 0px;}
+a:link, a:visited {color:rgb(255,255,255); text-decoration:none;aria-hidden:true;text-align:center;}
 a.two:link, a.two:visited {color:rgb(0,0,0); text-decoration:underline;}
 br {line-height:12px;}
 table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 12px; overflow:auto;}
@@ -15,7 +15,7 @@ audio{display:block; border:0; padding:0; margin:auto;}}
 
 @media screen and (min-width:480px) 
 {span {font-size:16px;}
-a:link, a:visited {color:rgb(255,255,255); text-decoration:none;aria-hidden:true;text-align:center;display:block; border:0; padding:8px 0px 0px 0px; margin:0px 0px 8px 0px;}
+a:link, a:visited {color:rgb(255,255,255); text-decoration:none;aria-hidden:true;text-align:center;}
 a.two:link, a.two:visited {color:rgb(0,0,0); text-decoration:underline;}
 br {line-height:16px;}
 table, th, td {border:1px solid black; padding:0; margin:auto; border-collapse: collapse; text-align:center; font-size: 16px; overflow:auto;}
