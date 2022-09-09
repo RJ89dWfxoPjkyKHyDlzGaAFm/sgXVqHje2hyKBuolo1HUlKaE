@@ -8,20 +8,38 @@
 <body>
 <script>
 function white()
-{document.body.style.backgroundColor = "rgb(255,255,255)";
+{document.documentElement.style.backgroundColor = "rgb(255,255,255)";
 const collection = document.getElementsByTagName("a");
  for (let i = 0; i < collection.length; i++) {
   collection[i].style.color = "rgb(0,0,238)";
 }}
-function gray() {document.body.style.backgroundColor = "rgb(127,127,127)";
+function gray() {document.documentElement.style.backgroundColor = "rgb(127,127,127)";
 const collection = document.getElementsByTagName("a");
  for (let i = 0; i < collection.length; i++) {
   collection[i].style.color = "rgb(255,255,255)";
 }}
+function small() {document.documentElement.style.fontSize="small";}
+function medium() {document.documentElement.style.fontSize="medium";}
+function large() {document.documentElement.style.fontSize="large";}
+function xlarge() {document.documentElement.style.fontSize="x-large";}
+function serif() {document.documentElement.style.fontFamily="serif";}
+function monospace() {document.documentElement.style.fontFamily="monospace";}
+function sansserif() {document.documentElement.style.fontFamily="sans-serif";}
 </script>
 <br>
-<button type="button" onclick="gray()">Theme one</button>
-<button type="button" onclick="white()">Theme two</button>
+<button type="button" onclick="gray()">Gray</button>
+<button type="button" onclick="white()">White</button>
+<br>
+<button type="button" onclick="small()">small</button>
+<button type="button" onclick="medium()">medium</button>
+<button type="button" onclick="large()">large</button>
+<button type="button" onclick="xlarge()">x-large</button>
+<br>
+<button type="button" onclick="serif()">serif</button>
+<button type="button" onclick="monospace()">monospace</button>
+<button type="button" onclick="sansserif()">sans-serif</button>
+
+
 
 <p>Page 1 </p>
 <p><b>Table of Contents </b></p>
