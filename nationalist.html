@@ -4,9 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="rational/default.css">
 <title>Nationalist</title>
-</head>
-<body>
-<br>
 <script>
 function white()
 {document.documentElement.style.backgroundColor = "rgb(255,255,255)";
@@ -28,7 +25,12 @@ function xlarge() {document.documentElement.style.fontSize="x-large";}
 function serif() {document.documentElement.style.fontFamily="serif";}
 function monospace() {document.documentElement.style.fontFamily="monospace";}
 function sansserif() {document.documentElement.style.fontFamily="sans-serif";}
+function maxwidth() {document.body.style.maxWidth="960px";}
+function maxwidth2() {document.body.style.maxWidth="720px";}
 </script>
+</head>
+<body>
+
 <br>
 <button type="button" onclick="gray()">Gray</button>
 <button type="button" onclick="white()">White</button>
@@ -41,7 +43,9 @@ function sansserif() {document.documentElement.style.fontFamily="sans-serif";}
 <button type="button" onclick="serif()">serif</button>
 <button type="button" onclick="monospace()">monospace</button>
 <button type="button" onclick="sansserif()">sans-serif</button>
-<br><br>
+<br>
+<button type="button" onclick="maxwidth()">max-width 960px</button>
+<button type="button" onclick="maxwidth2()">max-width 720px</button>
 
 <h1 id="1">No. 1<br>Wake Up</h1>
 <p>You have been told many lies, both about your own people and about others.</p>
