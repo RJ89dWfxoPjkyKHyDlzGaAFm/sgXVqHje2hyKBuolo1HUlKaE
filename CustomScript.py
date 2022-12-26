@@ -1,0 +1,58 @@
+import re
+If_Empty_Text_Tag_Is_Preceeded_By_NonWhiteSpace_Then_Convert_To_WhiteSpace=[]
+Remove_All_Empty_Text_Tags=[]
+Remove_All_Non_Text_Tags=[]
+Extract_All_Line_Positions=[]
+Compute_Difference_Of_EvenOdd_Line_Positions=[0]
+Convert_Line_Positions_To_Paragraphs=[]
+
+with open("image.xml","r",encoding="utf-8") as x:
+ If_Empty_Text_Tag_Is_Preceeded_By_NonWhiteSpace_Then_Convert_To_WhiteSpace.extend(re.sub("(?<=\S) *</text>\n<text.*> *</text>"," </text>","".join(x)).splitlines(True))
+ Remove_All_Empty_Text_Tags.extend(re.sub("<text.*> *</text>","","".join(If_Empty_Text_Tag_Is_Preceeded_By_NonWhiteSpace_Then_Convert_To_WhiteSpace)).splitlines(True))
+ #Experimental REGEX below
+ #Start_Of_New_Paragraphs.extend(re.sub(" </text>\n<text.+?> </text>"," </text>","".join(x)).splitlines(True))
+ #Start_Of_New_Paragraphs.extend(re.sub("<text.+> </text>\n<text.+> </text>","","".join(x)).splitlines(True))
+ #Start_Of_New_Paragraphs.extend(x)
+
+for Loop in Remove_All_Empty_Text_Tags:
+ if "<text top=" in Loop:
+  Remove_All_Non_Text_Tags.append(Loop)
+
+Extract_All_Line_Positions.extend(re.findall("<text top=\"(\d\d\d\d|\d\d\d|\d\d|\d)","".join(Remove_All_Non_Text_Tags)))
+
+
+for Even,Odd in zip(Extract_All_Line_Positions[::],Extract_All_Line_Positions[1::]):
+ Compute_Difference_Of_EvenOdd_Line_Positions.append(int(Odd)-int(Even))
+
+#I don't know how IF ELIF ELSE WHILE CONTINUE PASS works, I just tried random stuff till I got the results I wanted. There might be room for improvements here.
+
+for x,y in zip(Remove_All_Non_Text_Tags,Compute_Difference_Of_EvenOdd_Line_Positions):
+ if y > 18:
+  Convert_Line_Positions_To_Paragraphs.extend(str("</p>\n<p>"+x.replace("\n","")).splitlines(True))
+ elif y == 11:
+  Convert_Line_Positions_To_Paragraphs.extend(str("</p>\n<p>"+x.replace("\n","")).splitlines(True))
+ elif y == 12:
+  Convert_Line_Positions_To_Paragraphs.extend(str("</p>\n<p>"+x.replace("\n","")).splitlines(True))
+ elif y < -3:
+  Convert_Line_Positions_To_Paragraphs.extend(str("</p>\n<p><hr>"+x.replace("\n","")).splitlines(True))
+ elif "<text" in x:
+  Convert_Line_Positions_To_Paragraphs.append(x.replace("\n",""))
+
+
+with open("conspiracy.html","a",encoding="utf-8") as Final_Product:
+ Final_Product.write("<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"default.css\">\n<title>My Blog</title>\n</head>\n<body>\n")
+ for line in Convert_Line_Positions_To_Paragraphs:
+  if "font=\"1\">" in line:
+   Final_Product.write(re.sub("<text.+?>","<b>",line).replace("</text>","</b>"))
+  elif "font=\"3\">" in line:
+   Final_Product.write(re.sub("<text.+?>","<i>",line).replace("</text>","</i>"))
+  elif "font=\"5\">" in line:
+   Final_Product.write(re.sub("<text.+?>","<b><i>",line).replace("</text>","</i></b>"))
+  elif "font=\"6\">" in line:
+   Final_Product.write(re.sub("<text.+?>","<sup>",line).replace("</text>","</sup>"))
+  elif "font=\"7\">" in line:
+   Final_Product.write(re.sub("<text.+?>","<sup>",line).replace("</text>","</sup>"))
+  elif "font=\"21\">" in line:
+   Final_Product.write(re.sub("<text.+?>","<b><sup>",line).replace("</text>","</sup></b>"))
+  else:
+   Final_Product.write(re.sub("<text.+?>","",line).replace("</text>",""))

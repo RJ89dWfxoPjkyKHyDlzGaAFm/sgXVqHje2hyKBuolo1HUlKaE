@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="stylesheet" type="text/css" href="default.css">
+<title>My Blog</title>
+</head>
+<body>
+<br>
+
+<p>I converted <a href="https://www.docdroid.net/R6I5wtJ/the-more-rational-worldview-pdf">this</a> pdf into <a href="rational.html">this</a> html.</p>
+
+<p>This is how I did it.</p>
+
+<p><a href="CustomScript.py">CustomScript.py</a></p>
+
+<p>Hopefully, someone smarter can improve it.</p>
+
+<h1>Explanation:</h1>
+
+<p>First, I used <a href="https://www.xpdfreader.com/download.html">Xpdf</a> to convert the PDF to XML. It only works on the linux version.</p>
+
+<p>pdftohtml -xml -zoom 1.0 file.pdf</p>
+
+<p>My python script begins by removing all empty <br>&lt;text&gt; &lt;/text&gt;.</p>
+
+<p>I used zip(even,odd) to compare the gap between lines. If the gap is greater than 18, that equals a new paragraph.</p>
+
+<p>font=1 means <b>bold</b>, font=3 means <i>italics</i></p>
+
+<p>Word of advice. Do not publish a book with DOCX or PDF.</p>
+
+
+
+</body>
+</html>
+
+
