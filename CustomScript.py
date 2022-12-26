@@ -6,7 +6,7 @@ Extract_All_Line_Positions=[]
 Compute_Difference_Of_EvenOdd_Line_Positions=[0]
 Convert_Line_Positions_To_Paragraphs=[]
 
-with open("image.xml","r",encoding="utf-8") as x:
+with open("output.xml","r",encoding="utf-8") as x:
  If_Empty_Text_Tag_Is_Preceeded_By_NonWhiteSpace_Then_Convert_To_WhiteSpace.extend(re.sub("(?<=\S) *</text>\n<text.*> *</text>"," </text>","".join(x)).splitlines(True))
  Remove_All_Empty_Text_Tags.extend(re.sub("<text.*> *</text>","","".join(If_Empty_Text_Tag_Is_Preceeded_By_NonWhiteSpace_Then_Convert_To_WhiteSpace)).splitlines(True))
  #Experimental REGEX below
