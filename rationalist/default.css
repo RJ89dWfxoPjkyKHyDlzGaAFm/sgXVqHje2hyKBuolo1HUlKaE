@@ -15,11 +15,12 @@
 .ff14{font-family:serif;}
 .ff15{font-family:serif;}
 .txt {white-space:nowrap;}
-.left{position:absolute;z-index:1;margin:0 0 0 216px;font-size:36px;text-align:left;}
-.index{position:absolute;z-index:1;margin:0 0 0 432px;font-size:36px;text-align:left;}
-.right{position:absolute;z-index:1;margin:0 0 0 648px;font-size:36px;text-align:left;}
 a:link, a:visited {color:rgb(0,0,255); text-decoration:none;aria-hidden:true;text-align:center;}
+.left{position:absolute;z-index:1;margin:0 0 0 216px;font-size:36px;}
+.index{position:absolute;z-index:1;margin:0 0 0 432px;font-size:36px;}
+.right{position:absolute;z-index:1;margin:0 0 0 648px;font-size:36px;}
 @media print {
 .left{visibility:hidden;}
 .right{visibility:hidden;}
 .index{visibility:hidden;}}
+
