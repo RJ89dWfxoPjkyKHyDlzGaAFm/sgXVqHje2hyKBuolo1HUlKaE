@@ -1,19 +1,20 @@
-.ff0{font-family:serif;}
-.ff1{font-family:serif;font-weight:bold;}
-.ff2{font-family:serif;}
-.ff3{font-family:serif;font-style:italic;}
-.ff4{font-family:serif;font-style:italic;}
-.ff5{font-family:serif;font-weight:bold;font-style:italic;}
-.ff6{font-family:serif;font-weight:bold;}
-.ff7{font-family:serif;}
-.ff8{font-family:serif;}
-.ff9{font-family:serif;}
-.ff10{font-family:serif;font-style:italic;}
-.ff11{font-family:serif;}
-.ff12{font-family:serif;}
-.ff13{font-family:serif;}
-.ff14{font-family:serif;}
-.ff15{font-family:serif;}
+:root{font-family:"Arial";}
+.ff0{}
+.ff1{font-weight:bold;}
+.ff2{}
+.ff3{font-style:italic;}
+.ff4{font-style:italic;}
+.ff5{font-weight:bold;font-style:italic;}
+.ff6{font-weight:bold;}
+.ff7{}
+.ff8{}
+.ff9{}
+.ff10{font-style:italic;}
+.ff11{}
+.ff12{}
+.ff13{}
+.ff14{}
+.ff15{}
 .txt {white-space:nowrap;}
 a:link, a:visited {color:rgb(0,0,255); text-decoration:none;aria-hidden:true;text-align:center;}
 .left{position:absolute;z-index:1;margin:0 0 0 216px;font-size:36px;}
