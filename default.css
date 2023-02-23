@@ -30,7 +30,7 @@ hr{display:block; border:0; padding:0; margin:2rem 0rem 2rem 0rem;height:1px;bor
 a:link, a:visited {color:rgb(127,127,127); text-decoration:none;aria-hidden:true;text-align:center;}
 a.two:link, a.two:visited {color:rgb(255,255,255);}
 table, th, td {border:1px solid white; padding:0; margin:auto; border-collapse: collapse; overflow:auto;}
-hr{display:block; border:0; padding:0; margin:2rem 0rem 2rem 0rem;height:1px;border-width:0;color:rgb(127,127,127);background-color:rgb(255,255,255);}}
+hr{display:block; border:0; padding:0; margin:2rem 0rem 2rem 0rem;height:1px;border-width:0;color:rgb(127,127,127);background-color:rgb(127,127,127);}}
 
 /* @media (prefers-color-scheme: dark){
 :root {background-color:rgb(127,127,127);color:rgb(0,0,0);}
