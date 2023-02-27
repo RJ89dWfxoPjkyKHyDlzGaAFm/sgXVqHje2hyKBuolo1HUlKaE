@@ -20,3 +20,17 @@ a:link, a:visited {color:rgb(127,127,127); text-decoration:none;aria-hidden:true
 a.two:link, a.two:visited {color:rgb(255,255,255);}
 table, th, td {border:1px solid white; padding:0; margin:auto; border-collapse: collapse; overflow:auto;}
 hr{display:block; border:0; padding:0; margin:2rem 0rem 2rem 0rem;height:1px;border-width:0;color:rgb(127,127,127);background-color:rgb(127,127,127);}}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
